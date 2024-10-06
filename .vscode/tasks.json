@@ -1,0 +1,31 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Run Flask backend",
+        "type": "shell",
+        "command": "venv\\Scripts\\activate && flask run",
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "isBackground": true,
+        "problemMatcher": "$tsc"
+      },
+      {
+        "label": "Run React frontend",
+        "type": "shell",
+        "command": "npm start",
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "isBackground": true,
+        "options": {
+          "cwd": "${workspaceFolder}/frontend"
+        },
+        "problemMatcher": []
+      }
+    ]
+  }
+  

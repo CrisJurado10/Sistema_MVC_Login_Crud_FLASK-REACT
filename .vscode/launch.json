@@ -1,0 +1,34 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Flask: Run Flask backend",
+        "type": "python",
+        "request": "launch",
+        "program": "${workspaceFolder}/backend/app.py",
+        "console": "integratedTerminal",
+        "env": {
+          "FLASK_APP": "app",
+          "FLASK_ENV": "development"
+        },
+        "args": [
+          "run",
+          "--no-debugger",
+          "--no-reload"
+        ],
+        "justMyCode": true
+      },
+      {
+        "name": "React: Run React frontend",
+        "type": "node",
+        "request": "launch",
+        "program": "${workspaceFolder}/frontend/node_modules/react-scripts/bin/react-scripts.js",
+        "args": ["start"],
+        "cwd": "${workspaceFolder}/frontend",
+        "runtimeExecutable": "node",
+        "console": "integratedTerminal",
+        "internalConsoleOptions": "neverOpen"
+      }
+    ]
+  }
+  
