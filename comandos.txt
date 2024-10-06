@@ -1,0 +1,4 @@
+Comandos para que el servidor de react sirva (a nivel de frontend):
+Correr en el terminar (estanando en el directorio frontend):
+npm start
+npm start
