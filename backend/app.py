@@ -1,4 +1,5 @@
 #sirve
+#login y crud totalmente funcional
 from flask import Flask, request, jsonify, session, redirect, url_for, render_template
 from flask_mysqldb import MySQL
 from flask_cors import CORS
