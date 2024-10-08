@@ -8,7 +8,6 @@ This project implements a user management system (CRUD) with authentication, usi
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Project Structure](#project-structure)
 - [Endpoints API](#endpoints-api)
 - [Security](#security)
 - [License](#license)
