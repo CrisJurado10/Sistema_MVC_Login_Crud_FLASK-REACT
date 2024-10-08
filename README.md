@@ -95,6 +95,14 @@ npm start
 ## Usage
 Once both servers (Flask and React) are running, access the app from English:http://localhost:3000. The interface will allow you to perform CRUD operations and user authentication.
 
+## Endpoints API
+Method	Route	Description
+GET	/users	List all users
+POST	/users	Create a new user
+PUT	/users/<id>	Update a user
+DELETE	/users/<id>	Delete a user
+POST	/login	Login
+
 ## API Endpoints
 Method Route Description
 GET /users List all users
