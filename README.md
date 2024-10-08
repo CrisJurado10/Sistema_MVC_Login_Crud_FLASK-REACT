@@ -103,13 +103,6 @@ PUT	/users/<id>	Update a user
 DELETE	/users/<id>	Delete a user
 POST	/login	Login
 
-## API Endpoints
-Method Route Description
-GET /users List all users
-POST /users Create a new user
-PUT /users/<id> Update a user
-DELETE /users/<id> Delete a user
-POST /login Login
 
 ## Security
 User passwords are stored using hashing to ensure security, so login using the username or email and password in plain text, it does not work with the hash.
